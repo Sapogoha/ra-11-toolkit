@@ -13,7 +13,7 @@ function Facts() {
   const count = useSelector(selectCount);
   const facts = useSelector(selectFacts);
   const dispatch = useDispatch();
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState('');
 
   const amountValue = Number(amount) || 0;
 
