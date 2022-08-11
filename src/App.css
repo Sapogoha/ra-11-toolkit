@@ -1,39 +1,49 @@
 .App {
+  /* background-color: rgb(27, 26, 26); */
+  background-image: url(./img/star-wars-backgrounds-15.jpeg);
+  min-height: 100vh;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.facts {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.form {
+  width: 50%;
+  margin: auto;
 }
 
-.App-header {
-  min-height: 100vh;
+.facts-frame {
+  background-color: rgba(255, 255, 255, 0.608);
+  color: black;
+}
+
+.list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.card-wraper {
+  width: 49%;
 }
